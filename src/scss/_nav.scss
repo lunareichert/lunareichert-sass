@@ -6,22 +6,27 @@
     padding-right: 15px;
     text-align: center;
     color: $primary-color;
+
     ul {
       list-style-type: none;
     }
+
+    a:link {
+      color: $primary-color;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: $primary-color; 
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $primary-color;
+      text-decoration: underline;
+    }
+    
   }
 
-  a:link {
-    color: $primary-color;
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: $primary-color; 
-    text-decoration: none;
-  }
   
-  a:hover {
-    color: $primary-color;
-    text-decoration: underline;
-  }
+  
